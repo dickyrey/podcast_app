@@ -41,15 +41,15 @@ class _IndexViewState extends State<IndexView> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(FontAwesomeIcons.home),
-            title: Text("Home"),
+            label: "Home",
           ),
           BottomNavigationBarItem(
             icon: Icon(FontAwesomeIcons.microphone),
-            title: Text("Library"),
+            label: "Library",
           ),
           BottomNavigationBarItem(
             icon: Icon(FontAwesomeIcons.user),
-            title: Text("Profile"),
+            label: "Profile",
           ),
         ],
       ),
